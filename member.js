@@ -1,8 +1,8 @@
-const { skillsFunction } = require("./skills"); // Import function from skills.js
+const { skillsFunction } = require('./skills.js'); // Import the function
 
 function skillsMember() {
-    console.log("Skills Member function executed successfully!");
     skillsFunction(); // Call the function from skills.js
 }
 
 skillsMember(); // Call the function to test
+
